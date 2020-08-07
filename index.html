@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://ux.ed.team/css/styles.css?201803301710">
+    <title>LLAVES</title>
+</head>
+<body>
+    <div class="ed-grid m-grid-4" id="curso">
+        
+    </div>
+    <form id="formCursos">
+        <div class="ed-grid m-grid-4">
+            <div class="form-item">
+            <label>
+                Marca de coche
+                <input type="text" name="marcaCurso" required>
+            </label>
+        </div>
+        <div class="form-item">
+            <label>
+                Modelo de coche
+                <input type="text" name="modeloCurso" required>
+            </label>
+        </div>
+        <div class="form-item">
+            <label>
+                año
+                <input type="number" min="1" name="añoCurso" required>
+            </label>
+        </div>
+        <div class="form-item">
+            <label>
+                perfil
+                <input type="text" name="perfilCurso" required>
+            </label>
+            <div class="form-item">
+                <label>
+                    <input class="button m-py-1" type="submit" value="Crear Curso">
+                </label>
+            </div>
+        </div>
+    </form>
+    <script type="module" src="./scripts/llaves.js"></script>
+    <script type="module" src="./scripts/moldeKeys.js"></script>
+    
+</body>
+</html>
